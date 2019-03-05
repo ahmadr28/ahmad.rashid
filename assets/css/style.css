@@ -67,6 +67,7 @@ p{
     border-width: 5px;
     border-color: #dddddd;
     padding: 20px;
+    margin-bottom: 100px;
 }
 footer{
     position: fixed;
@@ -102,6 +103,7 @@ p{
         border-width: 5px;
         border-color: #dddddd;
         padding: 20px;
+        margin-bottom: 150px;
 }
 .textbox label{
     display: block;
@@ -134,13 +136,15 @@ textarea{
     height: 300px !important;
 }
 .projectbox{
-    height: 950px;
+    height: 550px;
     margin-top: 30px;
     background-color: #ffffff;
     border-style: solid;
     border-width: 5px;
     border-color: #dddddd;
     padding: 20px;
+    margin-bottom: 100px;
+    padding-bottom: 50px;
 }
 .textblock{
     position: absolute;
@@ -160,4 +164,10 @@ textarea{
 .gamerpic, .studentpic, .carpic, .techpic, .shoespic{ 
     position: relative;
     padding-bottom: 20px;
+}
+.original, .right{
+    float: left;
+}
+.right{
+    margin-left: 35px;
 }
